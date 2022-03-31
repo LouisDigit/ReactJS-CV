@@ -27,6 +27,13 @@ body {
   color: $white;
   display: flex;
   flex-direction: column;
+  background-color: #b2bec3;
+}
+
+#root {
+  border: 1px solid $primaryColor;
+  border-radius: 25px;
+  box-shadow: $boxShadow;
 }
 
 button {
