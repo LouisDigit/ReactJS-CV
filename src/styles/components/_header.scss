@@ -18,6 +18,7 @@
       a {
         color: $white;
         transition: 0.3s ease;
+        font-weight: 400;
         &:hover {
           color: $primaryColor;
         }
@@ -36,6 +37,35 @@
         margin-top: 5px;
         &:hover {
           border: solid 1px $primaryColor;
+        }
+      }
+    }
+  }
+}
+
+@include xs {
+  .header {
+    ul {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      li {
+        &:nth-child(1) {
+          display: none;
+        }
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}
+
+@include sm {
+  .header {
+    ul {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      li {
+        &:nth-child(1) {
+          display: none;
         }
       }
     }

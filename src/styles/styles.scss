@@ -1,3 +1,7 @@
+@import "./media-queries";
 @import "./settings";
 @import "./components/header";
-@import "./components/home";
+@import "./pages/home";
+@import "./pages/competence";
+@import "./pages/portfolio";
+@import "./pages/contact";
