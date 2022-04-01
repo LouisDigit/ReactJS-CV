@@ -99,11 +99,15 @@ const Competences = () => {
               <h5>Plateforme Dyma</h5>
               <p>
                 Je me forme en autodidacte via une plateforme de cours en ligne
-                de qualité destinée aux entreprises. J'ai participé a des cours
+                de qualitée destinée aux entreprises. J'ai participé a des cours
                 de remises à niveau en HTML/CSS/SASS modernes. J'ai aussi finis
                 les formation Git/GitHub. Et je suis actuellement entrain de
                 suivre la formation React JS.{" "}
-                <a href="https://dyma.fr/" target="_blank">
+                <a
+                  href="https://dyma.fr/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
                   Dyma.fr
                 </a>
               </p>

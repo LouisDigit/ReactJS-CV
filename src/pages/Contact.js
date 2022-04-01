@@ -10,7 +10,11 @@ const Contact = () => {
           <h1>Contactez moi</h1>
           <ul>
             <li>
-              <a href="https://twitter.com/LouisVnse" target="_blank">
+              <a
+                href="https://twitter.com/LouisVnse"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <i className="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -18,12 +22,17 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/louis-vanoise-551493233/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/LouisDigit" target="_blank">
+              <a
+                href="https://github.com/LouisDigit"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </li>
