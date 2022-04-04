@@ -195,7 +195,7 @@
 
 @include sm {
   .content-competences {
-    height: 780px;
+    height: auto;
     .competences-langages-experiences {
       .competences-langages {
         .langages-item {
@@ -221,7 +221,7 @@
 
 @include md {
   .content-competences {
-    height: 730px;
+    height: auto;
     .competences-langages-experiences {
       .competences-langages {
         .langages-item {
