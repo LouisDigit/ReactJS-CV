@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
 
-function DebutantStar() {
-  return (
-    <div className="star">
-      <i className="fa-solid fa-star lightYellow"></i>
-      <i className="fa-solid fa-star darkYellow"></i>
-      <i className="fa-solid fa-star darkYellow"></i>
-    </div>
-  );
-}
+// function DebutantStar() {
+//   return (
+//     <div className="star">
+//       <i className="fa-solid fa-star lightYellow"></i>
+//       <i className="fa-solid fa-star darkYellow"></i>
+//       <i className="fa-solid fa-star darkYellow"></i>
+//     </div>
+//   );
+// }
 
 function IntermediaireStar() {
   return (
