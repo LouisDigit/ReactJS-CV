@@ -30,9 +30,9 @@
       .langages-item {
         display: flex;
         flex-direction: row;
-        padding: 0.4rem;
+        padding: auto;
+        margin: auto 0 auto 1rem;
         font-size: 1.6rem;
-        margin-left: 1rem;
         .item-title {
           display: flex;
           flex-direction: row;
