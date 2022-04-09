@@ -9,6 +9,7 @@ $lightYellow: #f9ca24;
 $darkYellow: #f6e58d;
 $white: #ddd;
 $black: #333;
+$boxShadowIn: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
 $boxShadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -30,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #b2bec3;
+  background-image: url(./../../public/media/background.jpeg);
   @include xs {
     width: 95%;
   }
