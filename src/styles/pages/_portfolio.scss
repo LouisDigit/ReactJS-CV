@@ -10,11 +10,13 @@
     height: 90%;
     margin: auto;
     .carousel-inner {
+      height: 100%;
       border-radius: 25px;
       border: 1px solid $primaryColor;
       .carousel-item {
+        height: 100%;
         img {
-          height: 550px;
+          height: 100%;
           width: 100%;
         }
       }
